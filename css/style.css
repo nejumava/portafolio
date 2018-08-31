@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 80%;
+    margin: auto auto;
+}
+body {
+    font-family: 'Economica', sans-serif;
+    font-size: 16 px;
+    line-height: 1.6;
+    background-color: black;
+}
+header {
+    color: black;
+    width: 100%;
+    margin-top: 25px;
+    background-color: #ff5c00;
+    display: grid;
+}
+h1 {
+    line-height: 23px;
+    padding: 5px 54px 0;
+    font-family: 'Wallpoet', cursive;
+}
+h3 {
+    font-family: 'Wallpoet', cursive;
+}
+#info {
+    padding: 0 255px 0 71px;
+}
+.proyectos {
+    background-color: #4e9525;
+    display: flex;
+}
+.link {
+    padding-top: 23px;
+    margin-left: 45%;
+}
+.boton {
+    padding: 6px 15px;
+    border: 1px solid #edf0c7;
+    border-radius: 25px;
+    margin-left: 10px;
+    background-color: #edf0c7;
+}
+a {
+    text-decoration: none;
+    color: #4e9525;
+}
+a:hover {
+    background-color: #ff5c00;
+    color: #edf0c7;
+}
+#foto {
+    width: 15%;
+    margin-left: 61%;
+    position: absolute;
+    margin-top: 3%;
+}
+.foto {
+    width: 170px;
+    height: 181px;
+    border-radius: 50%;
+    border: 5px solid darksalmon;
+}
+.experiencia {
+    height: 120px;
+    position: relative;
+}
+.seccion2 {
+    width: 100%;
+    margin: auto auto;
+    display: flow-root;
+    background-color: #edf0c7;
+}
+#imagen {
+    width: 100%;
+    padding: 10px;
+}
+.aplicaciones {
+    background-color: black;
+    opacity: 0.7;
+    width: 400px;
+    margin-top: -143px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+.texto {
+    color: #edf0c7;
+    padding-left: 14px;
+    padding-bottom: 1px;
+}
+@media screen and (max-width: 800px) {
+    .aplicaciones {
+        margin-top: -143px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .proyectos {
+        display: grid;
+    }
+    .link {
+        display: none;
+    }
+    h1 {
+        padding: 5px 10px 0;
+    }
+    #info {
+        padding: 0 10px 0 10px;
+    }
+    #foto {
+        display: none;
+    }
+}
+@media screen and (max-width: 520px) {
+    .aplicaciones {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1190px) {
+    .link {
+        margin-left: 15%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    #foto {
+        margin-left: 55%;
+        margin-top: 8%;
+    }
+}
